@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.Extentmanager.Listener"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="sauceproject.testcase.finishpagetest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="finishpagetest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- sauceproject.testcase.finishpagetest -->
+      <class name="sauceproject.testcase.productcataloguetest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- sauceproject.testcase.productcataloguetest -->
+      <class name="sauceproject.testcase.checkoutpagetest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- sauceproject.testcase.checkoutpagetest -->
+      <class name="sauceproject.testcase.LoginPageTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- sauceproject.testcase.LoginPageTest -->
+      <class name="sauceproject.testcase.cartpagetest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- sauceproject.testcase.cartpagetest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
