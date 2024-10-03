@@ -27,7 +27,6 @@
       </class> <!-- sauceproject.testcase.checkoutpagetest -->
       <class name="sauceproject.testcase.LoginPageTest">
         <methods>
-          <include name="loginPageTitleTest"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>

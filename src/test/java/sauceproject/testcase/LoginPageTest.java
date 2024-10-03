@@ -38,7 +38,7 @@ public class LoginPageTest extends baseclass {
 	public void loginPageTitleTest(){
 		String title = lp.validateLoginPageTitle();
 		System.out.println(title);
-		Assert.assertEquals(title, "Swag Labs1");
+		Assert.assertEquals(title, "Swag Labs");
 	}
 	
 	
