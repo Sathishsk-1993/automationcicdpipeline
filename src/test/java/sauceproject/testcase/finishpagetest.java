@@ -47,7 +47,7 @@ public class finishpagetest extends baseclass{
 		     pg.finish();
 		     finishpage pe = new finishpage();
 		     String message= pe.successmessage();
-		     Assert.assertEquals(message, "Thank you for your orders!", "Order success message mismatch!");
+		     Assert.assertEquals(message, "Thank you for your order!", "Order success message mismatch!");
 	}
 	
 	  @AfterMethod
